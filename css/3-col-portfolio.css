@@ -15,3 +15,38 @@ body {
 footer {
     margin: 50px 0;
 }
+
+/******************************************************************************
+/* Custom "Bootstrap-like" Classes for 5 col layouts for all view port sizes */
+.col-xs-5-col,
+.col-sm-5-col,
+.col-md-5-col,
+.col-lg-5-col {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.col-xs-5-col {
+    width: 20%;
+    float: left;
+}
+@media (min-width: 768px) {
+    .col-sm-5-col {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 992px) {
+    .col-md-5-col {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 1200px) {
+    .col-lg-5-col {
+        width: 20%;
+        float: left;
+    }
+}
