@@ -17,6 +17,13 @@ footer {
 }
 
 /******************************************************************************
+/* Custom header color */
+.navbar-inverse {
+  background-color: #27556C;
+  border-color: #113D52;
+}
+
+/******************************************************************************
 /* Custom "Bootstrap-like" Classes for 5 col layouts for all view port sizes */
 .col-xs-5-col,
 .col-sm-5-col,
