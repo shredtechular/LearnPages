@@ -50,3 +50,50 @@ footer {
         float: left;
     }
 }
+
+/******************************************************************************
+/* Custom css for gallery grid                                               */
+.gallery-link:hover {
+    text-decoration: none;
+}
+
+.gallery-container {
+    border: 1px solid #B0B0B0;
+}
+
+.gallery-hero {
+    margin: 0 auto;
+    width:75%;
+}
+
+.gallery-meta {
+    visibility: hidden;
+    display:table;
+    position: relative;
+    display: table;
+    padding: 5px;
+    width:100%;
+}
+
+.gallery-link:hover .gallery-meta {
+    visibility: visible;
+}
+
+.gallery-category {
+    display:table-cell;
+    vertical-align:middle;
+    color: #a8a8a8;
+    font-weight: 500;
+    font-size:20px;
+}
+
+@media (min-width: 992px) {
+    .gallery-category {
+        font-size:14px;
+    }
+}
+
+.gallery-country {
+    width:20%;
+    display:table-cell;
+}
