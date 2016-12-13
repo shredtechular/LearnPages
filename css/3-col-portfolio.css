@@ -17,10 +17,18 @@ footer {
 }
 
 /******************************************************************************
-/* Custom header color */
+/* Custom header colors */
 .navbar-inverse {
   background-color: #27556C;
   border-color: #113D52;
+}
+
+.nav.navbar-nav>li>a {
+    color: #fff;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #fff;
 }
 
 /******************************************************************************
